@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechCon 2024 - Register</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label><br />
+                <input type="text" id="fullname" name="fullname" required /><br /><br />
+
+                <label for="email">Email Address:</label><br />
+                <input type="email" id="email" name="email" required /><br /><br />
+
+                <label for="password">Create Password:</label><br />
+                <input type="password" id="password" name="password" required /><br /><br />
+
+                <label>Attendance Type:</label><br />
+                <input type="radio" id="inperson" name="attendance" value="inperson" required />
+                <label for="inperson">In-Person</label><br />
+                <input type="radio" id="virtual" name="attendance" value="virtual" />
+                <label for="virtual">Virtual</label><br /><br />
+
+                <label for="sessions">Select Sessions of Interest:</label><br />
+                <input type="checkbox" id="ai" name="sessions" value="AI" />
+                <label for="ai">AI</label><br />
+                <input type="checkbox" id="cybersecurity" name="sessions" value="Cybersecurity" />
+                <label for="cybersecurity">Cybersecurity</label><br />
+                <input type="checkbox" id="cloud" name="sessions" value="Cloud" />
+                <label for="cloud">Cloud Computing</label><br /><br />
+
+                <input type="submit" value="Register" />
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
